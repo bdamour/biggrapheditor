@@ -1,4 +1,4 @@
-
+/*****************************************
 Copyright or © or Copr. Felix Levitre, Bruno Lecornu, Audouard Hespel, 
 Benjamin Damour (27/02/2015)
 Felix.Levitre@insa-rennes.fr, blecornu@insa-rennes.fr, ahespel@insa-rennes.fr, 
@@ -31,3 +31,22 @@ same conditions as regards security.
 
 The fact that you are presently reading this means that you have had
 knowledge of the CeCILL-C license and that you accept its terms.
+
+*****************************************/
+
+#ifndef DATA
+#define DATA
+
+/*
+* Maximum number of elements (vertices) in the graph
+*/
+#define MAX_NUMBER_VERTEX 512
+
+/*
+* Maximum number of edges in the graph
+*/
+#define MAX_NUMBER_EDGE 512
+
+#endif
+
+
